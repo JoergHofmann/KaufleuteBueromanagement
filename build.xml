@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name = "kostenrechnung">
+<project name = "KaufleuteBueromanagement">
 	<target name="prepare" unless="done">
 		<property environment="env" />
-		<property name="prefix" value="KLR" />
+		<property name="prefix" value="KBM" />
+		<property name="ftpUser" value="jhoeho"/>
+		<property name="ftpPw" value="J13ei05ger64H"/>
+		<property name="ftpServer" value="sftp://www342.your-server.de"/>
+		<property name="ftpPfad" value="public_html/pecunia-non-olet/liascript"/>
+		<delete includeemptydirs="true">
+		    <fileset dir = "0_TMP" includes = "**/*"/>
+		    <fileset dir = "0_OUT" includes = "**/*"/>
+		    <!-- <fileset dir = "${env.local_www_dir}/${ant.project.name}" includes = "**/*"/> -->
+		</delete>
+		<copy todir="0_TMP" overwrite="true">
+			<fileset dir=".">
+			    <include name="*.lua" />
+			    <include name="*.yaml" />
+			    <include name="*.tex" />
+			    <include name="*.md" />
+                <include name="*.html" />
+			</fileset>
+		</copy>
 		<!-- Alle temporären Verzeichnisse leeren. -->
 		<delete includeemptydirs="true">
 			<fileset dir = "0_TMP" includes = "**/*"/>
@@ -21,6 +39,26 @@
 				<include name="*.html" />
 				<include name="*.md" />
 			</fileset>
+		</copy>
+	</target>
+
+	<target name="copy4lia" unless="done">
+	    <mkdir dir="0_LIA/images" />
+	    <mkdir dir="0_LIA/scripts" />
+	    <mkdir dir="0_LIA/css" />
+	    <mkdir dir="0_LIA/videos" />
+	    <copy todir="0_LIA/images" overwrite="true">
+			<fileset dir="images" includes="*.png" />
+			<fileset dir="images" includes="*.svg" />
+			<fileset dir="images" includes="*.gif" />
+			<fileset dir="images" includes="*.jpg" />
+			<fileset dir="images" includes="*.pdf" />
+		</copy>
+	    <copy todir="0_LIA/css" overwrite="true">
+			<fileset dir="css" includes="*.css" />
+		</copy>
+	    <copy todir="0_LIA/scripts" overwrite="true">
+			<fileset dir="scripts" includes="*.js" />
 		</copy>
 	</target>
 
@@ -58,6 +96,14 @@
 			<fileset dir="images" includes="*.jpg" />
 			<fileset dir="images" includes="*.pdf" />
 		</copy>
+	</target>
+
+	<target name="lia" depends="prepare" unless="done">
+	    <antcall target="copy4lia" />
+	    <exec executable="ypp" dir="0_TMP" output="0_LIA/${ant.project.name}.md" logError="true">
+		<arg line="-l liascript.lua main-lia.md" />
+	    </exec>
+	    <property name="done" value="done" />
 	</target>
 
 
