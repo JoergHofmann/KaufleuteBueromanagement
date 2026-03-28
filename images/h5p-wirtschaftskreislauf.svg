@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg806"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="h5p-wirtschaftskreislauf.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview808"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.82582071"
+     inkscape:cx="384.46602"
+     inkscape:cy="464.38651"
+     inkscape:window-width="1920"
+     inkscape:window-height="1139"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs803" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.69933;stroke-linecap:round"
+       id="path999"
+       cx="178.19365"
+       cy="87.670967"
+       r="29.879869" />
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.365783;stroke-linecap:round"
+       id="path999-3"
+       cx="14.658823"
+       cy="67.223984"
+       r="6.4316916" />
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.69933;stroke-linecap:round"
+       id="path999-6"
+       cx="142.47258"
+       cy="29.879869"
+       r="29.879869" />
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.69933;stroke-linecap:round"
+       id="path999-7"
+       cx="126.36438"
+       cy="170.09204"
+       r="29.879869" />
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.69933;stroke-linecap:round"
+       id="path999-5"
+       cx="274.2565"
+       cy="91.338936"
+       r="29.879869" />
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+baseURL: https://example.org/
+languageCode: de-DE
+title: Kaufleute Büromanagement
+theme: hugo-theme-relearn
