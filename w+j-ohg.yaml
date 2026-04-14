@@ -1,0 +1,39 @@
+---
+beschreibung01: |
+       Innenarchitekt Orson W. und Schreinermeister Curd J. arbeiten schon seit Jahren erfolgreich zusammen.
+       Um der zunehmenden Konkurrenz aus den neuen EU-Staaten besser begegnen zu können, legen sie im @(Monat[StartMonat].MMMM) @(Jahr)
+       ihre Firmen zusammen und gründen die W+J-Ladenbau-OHG.
+
+       Die W+J-Ladenbau-OHG plant, liefert und baut Einrichtungen für exklusive Einzelhandelsgeschäfte, wie
+       Juweliere, Optiker oder Boutiquen. Daneben werden hochwertige Büromöbel in Kleinserie gefertigt und an ausgewählte Händler geliefert.
+       
+       Die W+J-Ladenbau-OHG ist Mitglied im Arbeitgeberverband, der Tarifvertrag wird angewendet.
+personal02: |
+       240 Beschäftigte, davon 12 Auszubildende, 
+       es gibt einen Betriebsrat und eine Jugend- und Auszubildendenvertretung.
+
+name1: "W+J-Ladenbau-OHG"
+name2: ""
+strasse: "Hongkong-Macao-Straße 3"
+plz: "64372"
+ort: "Ober-Ramstadt"
+tel: "+49 6154 88834-0"
+fax: "+49 6154 88834-9"
+mobil: ""
+mail: "info@w+j-ohg.de"
+www: "www.w+j-ohg.de"
+logo: ""
+bank1name: "Postbank Frankfurt"
+bank1iban: "DE56 5001 0060 0445 3228 75"
+bank1bic: "PBNKDEFFXXX"
+bank2name: "Nassauische Sparkasse (NASPA)"
+bank2iban: "DE32 5105 0015 0034 2667 86"
+bank2bic: "NASSDE55XXX"
+ustid: "DE 347 993 141"
+ustbesteuerung: "Sollversteuerung"
+kontenrahmen: "SKR03"
+wirtschaftsjahr: "Kalenderjahr"
+buchungsperioden: 13
+gewinnermittlung: "Betriebsvermögensvergleich, Handelsbilanz"
+jahr: 2024
+stichtag: "31.12."

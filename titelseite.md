@@ -1,4 +1,11 @@
-![](@(ImagePath)/@(Projekt.wwwCover)){ width=70%}
+<div style="text-align: center" >
+<span style="font-size:x-large; font-weight: bold;">@(Projekt.ptSubtitle)</span>
 
-<p style="text-align:center;">Stand: @(Monat[heute.month].MMMM) @(heute.year) @(br)
-Git: @(GetShortGITHash "")</p>
+![](images/@(Projekt.wwwCover))
+
+@(Autor.name)
+
+@(Autor.mail)@(br)
+
+Git: @(GetShortGITHash "")
+</div>

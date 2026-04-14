@@ -3,8 +3,8 @@
 
 <svg
    width="1920"
-   height="1440"
-   viewBox="0 0 507.99998 381"
+   height="1200"
+   viewBox="0 0 507.99998 317.5"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -26,14 +26,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.4726521"
-     inkscape:cx="624.13772"
-     inkscape:cy="584.99688"
+     inkscape:cx="1064.2077"
+     inkscape:cy="584.99687"
      inkscape:window-width="1920"
      inkscape:window-height="1139"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer6" />
+     inkscape:current-layer="svg5" />
   <defs
      id="defs2">
     <inkscape:path-effect
@@ -1642,6 +1642,44 @@
        y1="208.92"
        x2="205.69"
        y2="219.7" />
+    <marker
+       style="overflow:visible"
+       id="marker2677-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1L"
+       markerWidth="8.75"
+       markerHeight="5"
+       viewBox="0 0 8.75 5"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2675-6"
+         transform="scale(-0.5)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2677-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1L"
+       markerWidth="8.75"
+       markerHeight="5"
+       viewBox="0 0 8.75 5"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2675-3"
+         transform="scale(-0.5)" />
+    </marker>
   </defs>
   <g
      inkscape:label="hintergrund"
@@ -1679,7 +1717,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="haushalte"
-     style="display:inline">
+     style="display:none">
     <g
        id="g10072"
        transform="matrix(1.0000025,0,0,1,-10.146963,0.60010494)">
@@ -1937,7 +1975,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="unternehmen"
-     style="display:inline">
+     style="display:none">
     <g
        id="g1837"
        transform="matrix(0.2805621,0,0,0.29636592,218.87771,46.146274)"
@@ -2385,7 +2423,7 @@
      inkscape:groupmode="layer"
      id="g1393"
      inkscape:label="konsum2"
-     style="display:inline;fill:#0000ff">
+     style="display:none;fill:#0000ff">
     <path
        style="opacity:1;fill:#0000ff;stroke:#008000;stroke-width:0.865;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2677)"
        d="M 77.626505,149.33502 C 277.62449,147.53528 277.62449,147.53528 277.62449,147.53528"
@@ -2395,7 +2433,7 @@
      inkscape:groupmode="layer"
      id="g1399"
      inkscape:label="konsumText2"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;display:inline;fill:#0000ff;stroke:#008000;stroke-width:0.865;stroke-opacity:1"
@@ -2412,7 +2450,7 @@
      inkscape:groupmode="layer"
      id="g1405"
      inkscape:label="konsum€2"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;display:none;fill:#0000ff;stroke:#008000;stroke-width:0.865;stroke-opacity:1"
@@ -2429,7 +2467,7 @@
      inkscape:groupmode="layer"
      id="g4237"
      inkscape:label="konsum€3"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;display:inline;fill:#0000ff;stroke:#008000;stroke-width:0.865;stroke-opacity:1"
@@ -2439,14 +2477,14 @@
          sodipodi:role="line"
          id="tspan4233"
          style="stroke:#008000;stroke-width:0.865;stroke-opacity:1"
-         x="0"
-         y="0">400</tspan></text>
+         x="181.61891"
+         y="156.97232">400</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="g1427"
      inkscape:label="faktoreinkommen2"
-     style="display:inline">
+     style="display:none">
     <path
        style="display:inline;opacity:1;fill:#0000ff;stroke:#008000;stroke-width:0.865;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2677)"
        d="M 83.579219,141.17181 C 283.57721,139.37207 283.57721,139.37207 283.57721,139.37207"
@@ -2456,7 +2494,7 @@
      inkscape:groupmode="layer"
      id="g1423"
      inkscape:label="faktoreinkommenText2"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;display:inline;opacity:1;fill:#0000ff;stroke:#008000;stroke-width:0.865;stroke-dasharray:none;stroke-opacity:1"
@@ -2466,8 +2504,8 @@
          sodipodi:role="line"
          id="tspan1419"
          style="font-size:6.35px;stroke:#008000;stroke-width:0.865;stroke-opacity:1"
-         x="0"
-         y="0">Faktoreinkommen</tspan></text>
+         x="95.925446"
+         y="137.23785">Faktoreinkommen</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:25.4px;font-family:KacstPoster;-inkscape-font-specification:KacstPoster;display:inline;fill:none;stroke:#008000;stroke-width:0.865;stroke-opacity:1;paint-order:fill markers stroke"
@@ -2477,14 +2515,14 @@
          sodipodi:role="line"
          id="tspan5240"
          style="stroke-width:0.865"
-         x="0"
-         y="0" /></text>
+         x="71.700691"
+         y="207.40559" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="g1411"
      inkscape:label="faktoreinkommen€2"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;fill:#0000ff;stroke:#008000;stroke-width:0.865;stroke-opacity:1"
@@ -2501,7 +2539,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="banken"
-     style="display:inline">
+     style="display:none">
     <g
        id="g6458"
        style="display:inline"
@@ -3671,7 +3709,7 @@
      inkscape:groupmode="layer"
      id="layer19"
      inkscape:label="sparen"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;stroke:#008000;stroke-width:0.865;stroke-opacity:1;marker-end:url(#marker2677);paint-order:fill markers stroke"
        d="m 42.859875,183.22792 c -0.378101,30.42727 -0.756192,60.85367 15.650155,75.77497 16.406347,14.9213 49.59557,14.33659 82.78517,13.75186"
@@ -3684,7 +3722,7 @@
      inkscape:groupmode="layer"
      id="layer21"
      inkscape:label="sparenText"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;font-family:KacstPoster;-inkscape-font-specification:KacstPoster;fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:0.865;stroke-opacity:1;paint-order:fill markers stroke"
@@ -3702,7 +3740,7 @@
      inkscape:groupmode="layer"
      id="layer22"
      inkscape:label="sparen€"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;font-family:KacstPoster;-inkscape-font-specification:KacstPoster;fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:0.865;stroke-opacity:1;paint-order:fill markers stroke"
@@ -3722,7 +3760,7 @@
      inkscape:groupmode="layer"
      id="layer20"
      inkscape:label="investitionen"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;stroke:#008000;stroke-width:0.865;stroke-opacity:1;marker-end:url(#marker2677);paint-order:fill markers stroke"
        d="m 201.24705,271.14693 c 40.24021,-1.82868 80.47937,-3.65731 100.13028,-17.74921 19.65091,-14.0919 18.71226,-40.44625 17.77359,-66.80138"
@@ -3735,7 +3773,7 @@
      inkscape:groupmode="layer"
      id="layer23"
      inkscape:label="investitionenText"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;font-family:KacstPoster;-inkscape-font-specification:KacstPoster;fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:0.865;stroke-opacity:1;paint-order:fill markers stroke"
@@ -3753,7 +3791,7 @@
      inkscape:groupmode="layer"
      id="layer24"
      inkscape:label="investitionen€"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:6.35px;font-family:KacstPoster;-inkscape-font-specification:KacstPoster;fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:0.865;stroke-opacity:1;paint-order:fill markers stroke"
@@ -3773,7 +3811,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="fiskus"
-     style="display:inline">
+     style="display:none">
     <g
        id="g9801"
        style="display:inline"
@@ -3864,9 +3902,27 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer25"
+     inkscape:label="import"
+     style="display:none" />
+  <path
+     style="display:none;fill:#0000ff;stroke:#008000;stroke-width:0.613938;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2677-5)"
+     d="m 362.71075,137.75443 c 71.15382,-2.54832 71.15382,-2.54832 71.15382,-2.54832"
+     id="path1391-5" />
+  <path
+     style="display:none;fill:#0000ff;stroke:#008000;stroke-width:0.613865;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2677-3)"
+     d="m 365.38575,154.18438 c 71.16074,-2.54746 71.16074,-2.54746 71.16074,-2.54746"
+     id="path1425-7" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer26"
+     inkscape:label="export"
+     style="display:none" />
+  <g
+     inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="ausland"
-     style="display:inline">
+     style="display:none">
     <g
        id="g3191"
        transform="matrix(0.26458333,0,0,0.26458333,378.43086,56.787606)"

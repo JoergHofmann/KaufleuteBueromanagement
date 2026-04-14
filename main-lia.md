@@ -5,10 +5,15 @@ language: @(Projekt.shortlang)
 version: @(GetShortGITHash "")
 icon: @(Projekt.icon)
 date: @(Monat[heute.month].MMMM) @(heute.year)
+logo: @Projekt.logo
+link: css/jho-lia.css
 -->
 
-<section style="text-align:center">)
 
+# @(Projekt.title)
+
+<div style="text-align: center" >
+<span style="font-size:x-large; font-weight: bold;">@(Projekt.subtitle)</span>
 
 ![](images/@(Projekt.wwwCover))
 
@@ -17,7 +22,7 @@ date: @(Monat[heute.month].MMMM) @(heute.year)
 @(Autor.mail)@(br)
 
 Git: @(GetShortGITHash "")
-</section>
+</div>
 
 @include "main.md"
 

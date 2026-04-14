@@ -27,7 +27,18 @@ Beim **Minimalprinzip** wird versucht, ein gegebens Ziel mit möglichst geringem
 
 #### Wirtschaftskreislauf
 
+Der Wirtschaftskreislauf ist ein Modell, das versucht, die Abläufe innerhalb einer Volkswirtschaft zu erklären. Auch wenn hier Zahlen genannt werden, ist es nur ein qualitatives Modell und keine exakte Berechnung. Es sollen folgende Annahmen gelten:
 
+1. Die Teilnehmer der Volkswirtschaft werden in "Polen" zusammengefasst. die Pole sind
+
+    * **Unternehmen:** Die Unternehmen verknüpfen Produktionsfaktoren zu Gütern, die dann verkauft werden.
+    * **Haushalte:** sind Eigentümer der Produktionsfaktoren, stellen sie den Unternehmen zur Verfügung und erzielen daraus Einkommen.
+    * Die weiteren Pole sind **Banken**, **Staat** und das Ausland. Diese werden später erläutert.
+
+2. Zwischen diesen Polen fließen Güter- und Geldströme, dabei fließt an jedem Pol genau so viel rein wie raus. 
+
+
+#### Wirtschaftspolitik
 
 </section>
 
